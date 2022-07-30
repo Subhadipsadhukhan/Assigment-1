@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Assigment</title>
+</head>
+
+<body>
+    <div class="parent">
+        <!-- for table -->
+        <div class="child1">
+            <h2>Table Of Content</h2>
+            <table id="newTable">
+                <thead>
+                    <tr>
+                        <th>SL.No.</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>City</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>Subhadip</td>
+                        <td>Sadhukhan</td>
+                        <td>Kolkata</td>
+                        <td>India</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>Holand</td>
+                        <td>London</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Kevin</td>
+                        <td>Polar</td>
+                        <td>Suiden</td>
+                        <td>America</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Lopa</td>
+                        <td>Mudra</td>
+                        <td>Mexico</td>
+                        <td>London</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Surajit</td>
+                        <td>Sadhukhan</td>
+                        <td>Howrah</td>
+                        <td>London</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <!-- for new content and button -->
+        <div class="child2">
+            <div class="newContent">
+                <h2>New Content</h2>
+                First_Name: <input type="text" name="fname" id="fname" /><br>
+                Last_Name :<input type="text" name="lname" id="lname" /><br>
+                City : <input type="text" name="city" id="city" /><br>
+                Country: <input type="text" name="country" id="country" /><br>
+                <!-- Make Two Buttons for add content -->
+                <div class="div3">
+                    <button class="btn" type="button" onclick="addTop()">Add to Top </button>
+                    <button class="btn" type="button" onclick="addBottom()"> Add to Bottom</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- add JavaScript File -->
+    <script src="index.js"></script>
+</body>
+
+</html>
